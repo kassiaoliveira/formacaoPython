@@ -1,8 +1,9 @@
-# Formação Python 
-<p><img align="right" alt="Python " width="90px" src="img_7.png" /></p>
+# Formação Python
 
 <p> <a href="https://cursos.alura.com.br/formacao-Python-linguagem">Alura - Formação Python</a></p>
+
 <p>Resumo teórico do conteúdo abordado</p>
+
 <h2>Sobre o Python</h2></p>
 <p>	<b>Python</b> é uma linguagem de programação interpretada de alto nível e que suporta múltiplos paradigmas de programação: imperativo, orientado a objetos e funcional. É uma linguagem com tipagem dinâmica e gerenciamento automático de memória.
 <p> <b>Linguagem</b> Interpretada significa que a implementação do código Python em cada computador é feita a partir de um interpretador
