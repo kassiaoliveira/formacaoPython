@@ -1,6 +1,7 @@
 import random
 
 def jogar():
+
     imprime_mensagem_abertura()
     palavra_secreta = carrega_palavra_secreta()
 
@@ -151,7 +152,3 @@ def carrega_palavra_secreta():
     numero = random.randrange(0, len(palavras))
     palavra_secreta = palavras[numero].upper()
     return palavra_secreta
-
-
-if(__name__ == "__main__"):
-    jogar()
