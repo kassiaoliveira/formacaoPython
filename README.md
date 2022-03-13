@@ -59,3 +59,24 @@ Para declarar funções em python devemos utilizar a palavra reservada def.
     # todo o código identado faz parte da função
         print("aprendendo funções")
 
+<p><b>Listas</b></p>
+<p>Uma lista armazena uma série de itens em uma ordem específica.
+Pode acessar os itens usando um índice ou dentro de um loop de repetição.</p>
+<b>Mutáveis</b>
+<p>Listas são representadas por Colchetes [ ] </p>
+
+<p><b>Tuplas</b></p>
+<p>Tuplas são semelhantes a listas, mas os itens em uma tuplas não podem ser
+modificado.
+<b>Imutáveis</b>
+<p>Tuplas são representadas por Parêntese () </p>
+
+<p><b>Set</b></p>
+<p>Um set é uma coleção não ordenada de elementos. Cada elemento é único, isso significa que não existem elementos duplicados dentro do set.
+<p>Set são representadas por Chaves { } </p>
+
+<p><b>Dictionary</b></p>
+<p> Os valores são entre chaves { } e com atribuição de dois pontos: para fazer correspondência entre
+os valores no dicionário. </p>
+
+<p><b>List Comprehension</b></p>
