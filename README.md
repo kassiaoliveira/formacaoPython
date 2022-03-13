@@ -96,7 +96,13 @@ modificado. <b>Imutáveis</b>
        <li>Exemplo List Comprehension<br>
          resultado = [str(item).upper() for item in lista]
 </li>
-
 </ul>
 
+<p><h3 style="color:yellow;"> Parâmetros, Argumentos, *args e **kwargs</h3></p>
 
+<ul>
+       <li><b>Parâmetros</b> são os nomes dado aos atributos que uma função pode receber</li><br>
+       <li><b>Argumentos</b> são valores que realmente são passados para uma função</li><br>
+       <li><b>*args</b> É usado para passar um lista de argumentos variável sem palavras-chave em forma de tupla, pois a função que o recebe não necessariamente saberá quantos argumentos serão passados. </li><br>
+       <li><b>**kwargs</b> keyword arguments (argumentos de palavras chave). Ele permite passar um dicionário com inúmeras keys para a função.</li>
+</ul>
