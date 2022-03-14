@@ -52,13 +52,13 @@ Paradigmas de Programação</b> são as diferentes abordagens que um programador
 - Orientado a Objetos: Talvez o mais popular dos paradigmas. Utiliza estruturas denominadas classes, objetos e a sua principal característica é permitir uma programação multiplataforma.
 - Funcional: Possui como principal característica o uso de estruturas chamadas funções. Essas funções separam o código em blocos nos quais cada um tem uma tarefa específica
 
- ###Possui tipagem dinâmica
+ ###### Possui tipagem dinâmica
  As categorias de dados não precisam ser definidos o próprio Python entende cada tipo informado.
 
- ###Gerenciamento Automático de Memória:
+ ###### Gerenciamento Automático de Memória:
  O Python constantemente realiza uma manutenção ou “limpeza” da memória não utilizada através de mecanismos como o garbage collector (coletor de lixo) e a Reference Counting (Contagem de Referência).Dessa forma, o programador não tem que se preocupar em fazer uma gestão manual de memória.
 
- ### Variáveis e String
+ ###### Variáveis e String
  Variáveis</b> são usadas para armazenar valores. 
  Uma String</b> é uma série de Caractere, entre aspas simples ou duplas
 
@@ -87,7 +87,7 @@ Paradigmas de Programação</b> são as diferentes abordagens que um programador
 
 ![img_6.png](img/img_6.png)
 
- ### Funções  
+ ###### Funções  
 Uma função é um bloco de código que pode ser guardado, para ser chamado assim que desejarmos, contanto que saibamos seu nome
 Para declarar funções em python devemos utilizar a palavra reservada def.
 
@@ -97,24 +97,24 @@ def nome_da_funcao():
     # todo o código identado faz parte da função
     print("aprendendo funções")
 ```
-### Listas
+###### Listas
 
 Uma lista é uma coleção ordenada e podem passar por modificações.
 Pode acessar os itens usando um índice ou em um ‘loop’ de repetição.
 Mutáveis</b>
 Listas são representadas por Colchetes [ ] 
 
-### Tuplas
+###### Tuplas
 Tuplas são como listas, mas os itens em uma tuplas não podem ser
 modificado.
 Imutáveis</b>
 Tuplas são representadas por Parêntese () 
 
-### Set
+###### Set
 Set são conjuntos de elementos distintos
 Set são representadas por Chaves {} 
 
-### Dictionary
+###### Dictionary
  São coleções de itens que contém elementos guardados de forma não ordenada. 
  Esses elementos contêm uma CHAVE e VALOR
 
@@ -130,7 +130,7 @@ chave é separada do valor por dois pontos:.
 dicio = {'chave': 'valor'}
 ```
 
-### List Comprehension
+###### List Comprehension
  É uma forma mais sucinta de manipular listas 
 A sua sintaxe básica é: [expr for item in lista]
 
@@ -144,13 +144,13 @@ for ‘item’ in lista:
          resultado = [str(item).upper() for item in lista]
 ```
 
-### Parâmetros, Argumentos, *args e **kwargs
+###### Parâmetros, Argumentos, *args e **kwargs
 - Parâmetros são os nomes dado aos atributos que uma função pode receber
 - Argumentos são valores que são realmente passados para uma função
 - *args É usado para passar uma lista de argumentos variável sem palavras-chave em forma de tupla, pois a função que o recebe não necessariamente saberá quantos argumentos serão passados. 
 - **kwargs keyword arguments (argumentos de palavras-chave). Ele permite passar um dicionário com inúmeras keys para a função.
 
-### Fluxo de Controle
+###### Fluxo de Controle
 
 <h4>ESTUTURAS CONDICIONAIS</h4>
 
