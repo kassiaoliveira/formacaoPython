@@ -7,14 +7,13 @@ Resumo teórico do conteúdo abordado
 ## Sobre o Python
 
 Python é uma linguagem de programação interpretada de alto nível 
-e que suporta múltiplos paradigmas de programação: 
+e suporta múltiplos paradigmas de programação: 
 imperativo, orientado a objetos e funcional. 
-É uma linguagem com tipagem dinâmica e gerenciamento automático de memória.
+É uma linguagem com tipagem dinâmica e gestão automática de memória.
 
 Linguagem Interpretada significa que a implementação do código Python em cada computador é feita a partir de um interpretador.
 
-Linguagem de Alto Nível possui maior proximidade com a linguagem humana do que a 
-linguagem de máquina(binário)
+Linguagem de Alto Nível possui maior proximidade com a linguagem humana do que a linguagem de máquina(binário)
 
 ###### Tipos de Dados
 - Booleano True/False 
@@ -49,16 +48,15 @@ linguagem de máquina(binário)
 
 Paradigmas de Programação</b> são as diferentes abordagens que um programador pode utilizar para desenvolver um código e resolver uma questão específica.
 
-
-       Imperativo ou Procedural: As instruções são passadas ao computador na sequência que devem ser executadas.
-       Orientado a Objetos: Talvez o mais popular dos paradigmas. Utiliza estruturas denominadas classes e objetos e sua principal característica é permitir uma programação multiplataforma.
-       Funcional: Possui como principal característica o uso de estruturas chamadas de funções. Essas funções separam o código em blocos nos quais cada um tem uma tarefa específica
+- Imperativo ou Procedural: As instruções são passadas ao computador na sequência que devem ser executadas.
+- Orientado a Objetos: Talvez o mais popular dos paradigmas. Utiliza estruturas denominadas classes, objetos e a sua principal característica é permitir uma programação multiplataforma.
+- Funcional: Possui como principal característica o uso de estruturas chamadas funções. Essas funções separam o código em blocos nos quais cada um tem uma tarefa específica
 
  ###Possui tipagem dinâmica
- Os tipos de dados não precisam ser definidos o próprio Python entende cada tipo informado.
+ As categorias de dados não precisam ser definidos o próprio Python entende cada tipo informado.
 
  ###Gerenciamento Automático de Memória:
- O Python constantemente realiza uma manutenção ou “limpeza” da memória não utilizada através de mecanismos como o garbage collector (coletor de lixo) e a Reference Counting (Contagem de Referência).Dessa forma, o programador não tem que se preocupar em fazer um gerenciamento manual de memória.
+ O Python constantemente realiza uma manutenção ou “limpeza” da memória não utilizada através de mecanismos como o garbage collector (coletor de lixo) e a Reference Counting (Contagem de Referência).Dessa forma, o programador não tem que se preocupar em fazer uma gestão manual de memória.
 
  ### Variáveis e String
  Variáveis</b> são usadas para armazenar valores. 
@@ -99,26 +97,26 @@ def nome_da_funcao():
     # todo o código identado faz parte da função
     print("aprendendo funções")
 ```
-###Listas
+### Listas
 
 Uma lista é uma coleção ordenada e podem passar por modificações.
 Pode acessar os itens usando um índice ou em um ‘loop’ de repetição.
 Mutáveis</b>
 Listas são representadas por Colchetes [ ] 
 
-###Tuplas
+### Tuplas
 Tuplas são como listas, mas os itens em uma tuplas não podem ser
 modificado.
 Imutáveis</b>
 Tuplas são representadas por Parêntese () 
 
-###Set
+### Set
 Set são conjuntos de elementos distintos
 Set são representadas por Chaves {} 
 
-###Dictionary
- São coleções de itens que contém elementos guardados de forma não ordenada.
-    Esses elementos contêm uma CHAVE e VALOR
+### Dictionary
+ São coleções de itens que contém elementos guardados de forma não ordenada. 
+ Esses elementos contêm uma CHAVE e VALOR
 
 Chave servirá para indexar(posicionar) determinado elemento no dicionário
 Contém os valores desses elementos, Este valor aceita diversos tipos: listas,outos dicionários, inteiros, string e etc
@@ -132,7 +130,7 @@ chave é separada do valor por dois pontos:.
 dicio = {'chave': 'valor'}
 ```
 
-###List Comprehension
+### List Comprehension
  É uma forma mais sucinta de manipular listas 
 A sua sintaxe básica é: [expr for item in lista]
 
@@ -152,7 +150,7 @@ for ‘item’ in lista:
 - *args É usado para passar uma lista de argumentos variável sem palavras-chave em forma de tupla, pois a função que o recebe não necessariamente saberá quantos argumentos serão passados. 
 - **kwargs keyword arguments (argumentos de palavras-chave). Ele permite passar um dicionário com inúmeras keys para a função.
 
-###Fluxo de Controle
+### Fluxo de Controle
 
 <h4>ESTUTURAS CONDICIONAIS</h4>
 
