@@ -152,15 +152,18 @@ for ‘item’ in lista:
 
 ###### Fluxo de Controle
 
-<h4>ESTUTURAS CONDICIONAIS</h4>
+###### ESTUTURAS CONDICIONAIS 
 
-<h5>if</h5>
+if
+
 ```python
 valor = 10
 if valor > 5:
     print('O valor é maior que 5.')
 ```
-<h5>if/else</h5>
+
+if/else
+
 ```python
 idade = 20
 if idade < 17:
@@ -168,8 +171,11 @@ if idade < 17:
 else:
     print('A idade é MAIOR que 17')
 ```
-<h5>if-elif-else</h5>
+
+if-elif-else
+
 O elif é utilizado quando mais de uma condição if precisa ser testada. Exemplo:
+
 ```python
 linguagem = "Python"
 
@@ -182,8 +188,12 @@ elif linguagem == "Java":
 else:
     print('Não é nenhuma das duas opções')
 ```
-<h5>Ternária (if em uma linha)</h5>
-Python provê uma forma concisa de se testar valores com apenas uma linha de código
+
+###### Ternária (if em uma linha)
+
+Python provê uma forma concisa de se testar valores com 
+apenas uma linha de código
+
 ```python
 velocidade = 75
 
@@ -192,19 +202,21 @@ resultado = 'Multado' if velocidade > 60 else 'Dentro do limite'
 print(resultado)
 ```
 
-<h4>ESTUTURAS DE REPETIÇÕES</h4>
+###### ESTUTURAS DE REPETIÇÕES
 
 - As estruturas de repetição são recursos das linguagens de programação responsáveis por executar um bloco de código repetidamente através de determinadas condições especifica.
 - Loops com for e loops com While
 
-<h5>for</h5>
+for 
+
 ```python
 lista = [1, 2, 3, 4, 5]
 for item in lista:
     print(item)
 ```
 
-<h5>while</h5>
+while
+
 ```python
 contador = 0
 
